@@ -1,0 +1,154 @@
+body {
+  font: 16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.btn-primary {
+  color: #000;
+  background-color: #FFC107;
+  border-color: #FFC107;
+}
+
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: center;
+  padding: .5rem 1rem;
+  color: #fff;
+  background-color: #fff;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.formulaire {
+  margin: 0 auto;
+  padding: 5em 0;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  border: 0.2px solid #f1f1f1;
+}
+
+.form-control {
+  height: auto;
+  border-radius: 0;
+  padding: 1em;
+  border: 0.2px solid #f1f1f1;
+  margin: 0 !important;
+}
+
+.btn {
+  font: inherit;
+  background: none;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  width: 30%;
+  padding: 1em;
+  margin-left: 1em;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: #fff;
+  border: 3px solid #ffb100;
+  color: #ffb100;
+  cursor: pointer;
+}
+
+.btn:focus, .btn:active, input:focus, input:active {
+  box-shadow: none;
+  outline: 0;
+}
+
+.form-container {
+  padding: 4em 0;
+  background: rgb(255,229,0);
+  background: linear-gradient(0deg, rgb(255,190,0,1) 0%, rgba(255,199,0,1) 47%, rgba(255,229,0,1) 100%);
+}
+
+p.start {
+  text-align: center;
+  width: 100%;
+}
+
+p.error {
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+  background-color: #ec6e4c;
+}
+
+.form {
+  margin: 0 auto;
+}
+
+.cities-container {
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.city-element {
+  justify-content: space-between;
+  padding: 1em;
+  border-radius: 0;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.city-element:hover, .city-element:focus {
+  box-shadow: 0px 0px 5px #e8e8e8;
+}
+
+.city-name {
+  font: inherit;
+  flex: 1;
+  font-weight: bold;
+}
+
+.city-temp {
+  font: inherit;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 2;
+}
+
+span.city-weather {
+  width: 30%;
+}
+
+span.city-weather:first-letter {
+  text-transform: capitalize;
+}
+
+span.city-temp-max {
+  background-color: #ffb100;
+  padding: 3px 10px;
+  border-radius: 15px;
+  color: #000;
+  margin: 0 5px;
+}
+
+span.city-temp-min {
+  background-color: #0099b1;
+  padding: 3px 10px;
+  border-radius: 15px;
+  color: #fff;
+  margin: 0 5px;
+}
